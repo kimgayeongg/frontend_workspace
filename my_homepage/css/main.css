@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: pink;
+}
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: left;
+}
+
+.ibx {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pbx {
+  float: left;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.prt {
+  position: relative;
+}
+
+.top {
+  position: relative;
+  height: 100px;
+  z-index: 999;
+}
+
+.top1 {
+  width: 200px;
+}
+.top2 {
+  width: 1000px;
+}
+
+.logo {
+  margin-left: -10px;
+}
+
+.gnb {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+
+  width: 800px;
+  height: 50px;
+  background-color: black rgb(117, 188, 255);
+}
+.gnb li {
+  width: 200px;
+}
+.gnb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
+
+.gnb ol {
+  height: 0; /* 200px; */
+  background-color: rgba(218, 238, 255, 0.9);
+  overflow: hidden; /* 숨기기 */
+  transition: height 0.4s;
+}
+
+.gnb:hover ol {
+  height: 170px;
+}
+.gnb ol a {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.gnb li:hover > a {
+  color: #fff;
+}
+
+.gnb ol li:hover a {
+  background-color: rgb(0, 54, 233);
+}
+
+.ban {
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  position: relative;
+  top: 0;
+}
+
+.cont {
+  height: 200px;
+  background-color: rgb(179, 218, 255);
+}
+
+.cont > .pbx {
+  width: 400px;
+}
+
+.tm {
+  width: 200px;
+  height: 40px;
+}
+.tm li a {
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgb(94, 169, 255);
+}
+
+.tm li.on a {
+  background-color: #fff;
+}
+
+.tc {
+  height: 138px;
+  background-color: #fff;
+}
+
+.tc > li {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.tc > li.on {
+  display: block;
+}
+
+.gong {
+  padding-top: 9px;
+  padding-left: 7px;
+}
+.gong li {
+  float: none;
+  line-height: 24px;
+}
+.gong a {
+  display: inline-block;
+
+  width: 270px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.gong span {
+  float: right;
+  padding-right: 5px;
+}
+
+.gal li {
+  margin: 18px 12px;
+}
+.gal img {
+  width: 100px;
+  border: 1px solid #777;
+}
+
+.pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 15px;
+  z-index: 999;
+  background-color: #fff;
+  border: 3px solid #888;
+  display: none;
+}
+.pop h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.pop p {
+  line-height: 30px;
+}
+
+.bbx {
+  text-align: right;
+}
+
+.im {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  height: 100px;
+  background-color: white;
+}
+
+.info1 {
+  width: 200px;
+}
+.info2 {
+  width: 800px;
+  text-align: center;
+  line-height: 80px;
+
+  font-weight: bold;
+}
+.info3 {
+  width: 200px;
+  text-align: center;
+  line-height: 107px;
+}
+
+.info3 img {
+  width: 40px;
+  margin: 0 5px;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>more begin</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <!-- A -->
+    <form>
+      ID: <input type="text" name="아이디" /> password:<input
+        type="password"
+        name="password"
+      />
+    </form>
+    <header class="ibx top">
+      <div class="pbx top1">
+        <h1 class="logo">
+          <a href="#">
+            <img src="./images/ssssss.jpg" alt="로고" />
+          </a>
+        </h1>
+      </div>
+      <div class="pbx top2 prt">
+        <ul class="gnb">
+          <li>
+            <a href="#">TOP</a>
+            <ol>
+              <li><a href="#">블라우스</a></li>
+              <li><a href="#">티</a></li>
+              <li><a href="#">셔츠</a></li>
+              <li><a href="#">니트</a></li>
+            </ol>
+          </li>
+          <li>
+            <a href="#">OUTER</a>
+            <ol>
+              <li><a href="#">자켓</a></li>
+              <li><a href="#">코트</a></li>
+              <li><a href="#">가디건</a></li>
+              <li><a href="#">머플러</a></li>
+            </ol>
+          </li>
+          <li>
+            <a href="#">BOTTOM</a>
+            <ol>
+              <li><a href="#">청바지</a></li>
+              <li><a href="#">짧은바지</a></li>
+              <li><a href="#">긴바지</a></li>
+              <li><a href="#">레깅스</a></li>
+            </ol>
+          </li>
+          <li>
+            <a href="#">ACC</a>
+            <ol>
+              <li><a href="#">귀고리</a></li>
+              <li><a href="#">목걸이</a></li>
+              <li><a href="#">반지</a></li>
+              <li><a href="#">팔찌</a></li>
+            </ol>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- B -->
+    <section class="ibx ban">
+      <!-- 슬라이드 -->
+      <ul class="slide">
+        <li>
+          <a href="#">
+            <img src="./images/contents33.jpg" alt="슬라이드1" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/slide_02.png" alt="슬라이드2" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/slide_03.png" alt="슬라이드3" />
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- C -->
+    <main class="ibx cont">
+      <div class="pbx">
+        <!-- 탭메뉴 -->
+        <ol class="tm">
+          <li class="on" onclick="chgTab(0,1)">
+            <a href="#">공지사항</a>
+          </li>
+          <li onclick="chgTab(1,0)">
+            <a href="#">갤러리</a>
+          </li>
+        </ol>
+        <!-- 탭내용 -->
+        <ol class="tc">
+          <!-- 공지사항 -->
+          <li class="on">
+            <ul class="gong">
+              <li>
+                <a href="#" onclick="popup('block')">
+                  배송/교환/환불 필독사항
+                </a>
+                <span>2021. 06. 07</span>
+              </li>
+              <li>
+                <a href="#"> [배송] 연말 배송지연 </a>
+                <span>2021. 06. 01</span>
+              </li>
+              <li>
+                <a href="#"> [공지]more begin 이벤트 진행합니다 !! </a>
+                <span>2021. 05. 31</span>
+              </li>
+              <li>
+                <a href="#"> [이벤트]more begin 여름 season off </a>
+                <span>2021. 05. 31</span>
+              </li>
+            </ul>
+          </li>
+          <!-- 갤러리 -->
+          <li>
+            <ul class="gal">
+              <li>
+                <a href="#">
+                  <img src="./images/gal4.jpg" alt="갤러리이미지" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/gal5.jpg" alt="갤러리이미지" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/gal3.png" alt="갤러리이미지" />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+      <div class="pbx">
+        <!-- 배너 -->
+        <a href="#">
+          <img class="im" src="./images/center.jpg" alt="배너이미지" />
+        </a>
+      </div>
+      <div class="pbx">
+        <!-- 바로가기 -->
+        <a href="#">
+          <img class="im" src="./images/center22.jpg" alt="as/교환문의" />
+        </a>
+      </div>
+    </main>
+    <!-- D -->
+    <footer class="ibx info">
+      <div class="pbx info1">
+        <h2 class="logo">
+          <a href="#">
+            <img src="./images/ssssss.jpg" alt="하단로고" />
+          </a>
+        </h2>
+      </div>
+      <div class="pbx info2">
+        <!-- 카피라잇 -->
+        moregin 대표자 김떙떙 이메일 전화번호: 010-5555-1234 베이직한 일상의문을
+        여는 moregin 입니다. 채팅 상담 문의시간 am10:00~pm07:00
+      </div>
+      <div class="pbx info3">
+        <!-- sns -->
+        <a href="#">
+          <img src="./images/sns1.png" alt="페이스북" />
+        </a>
+        <a href="#">
+          <img src="./images/sns2.png" alt="트위터" />
+        </a>
+        <a href="#">
+          <img src="./images/sns3.png" alt="카카오톡" />
+        </a>
+      </div>
+    </footer>
+
+    <!-- 팝업창 -->
+    <div class="pop">
+      <!-- 제목 -->
+      <h1>
+        ※more begin 필독사항※
+        <br />
+      </h1>
+      <!-- 내용 -->
+      <p>
+        안녕하세요. more begin 입니다.
+        <br /><br />
+
+        배송기간은 평균 3~7일 소요되며, 거래처에 따라 7~14일 이상 지연이 발생할
+        수 있습니다 이 부분에 대해서 동의 하시는 분들만 신중한 구매 부탁드립니다
+        지연 문자는 따로 보내드리지 않고 있으며, 품절시 안내문자를 드리고
+        있습니다. 물건 주문 후 품절시 결제수단으로 자동 승인 취소 되며 3~5일
+        이내 취소 됩니다.
+
+        <br /><br />
+        ■ 배송기간 : 오더하신 상품은 거래처 사정에 따라 7~14일 소요
+        <br />
+        ■ 반품/환불 : 반품/환불 7일 이내 부탁드립니다.
+        <br />
+        ■ 배송문의: 카카오톡 문의 부탁드려요
+      </p>
+      <!-- 버튼박스 -->
+      <div class="bbx">
+        <button onclick="popup('none')">닫기</button>
+      </div>
+    </div>
+  </body>
+</html>
