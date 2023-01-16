@@ -15,7 +15,7 @@ public class SqlSessionTemplate {
  private SqlSessionTemplate() {
      }
  
- private static SqlSessionFactory setSqlSessionFactory() {
+ public static SqlSessionFactory setSqlSessionFactory() {
 
 	 //1. 트랜잭션이 설정되어 있는 파일의 경로를 정의한다.
 	 String resource = "common/config/configuration.xml";

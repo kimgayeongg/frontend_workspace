@@ -30,17 +30,19 @@ else
 <c:when test="${avg>=90 }">
 <p><c:out value="A"/> </p>
 </c:when>
+</c:choose>
 
 <c:choose>
 <c:when test="${avg>=80 }">
 <p><c:out value="A"/> </p>
 </c:when>
+</c:choose>
 
 <c:choose>
 <c:when test="${avg>=70 }">
 <p><c:out value="A"/> </p>
 </c:when>
-
+</c:choose>
 
 <c:choose>
 <c:when test="${avg>=60 }">
